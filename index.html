@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Health Dashboard Pro</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>💊 Health Dashboard Pro</h1>
+
+<div class="container">
+
+  <input type="text" id="name" placeholder="Enter your name">
+  
+  <input type="number" id="age" placeholder="Enter age">
+  
+  <input type="number" id="weight" placeholder="Weight (kg)">
+  
+  <input type="number" id="height" placeholder="Height (cm)">
+
+  <button onclick="analyzeHealth()">Analyze</button>
+
+  <div id="result"></div>
+
+  <canvas id="bmiChart"></canvas>
+  <canvas id="heartChart"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
